@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.nav .nav-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F55A5A;
+    border-radius: 2px;
+    
+    
+}
+.nav .nav-globe{
+    display: flex;
+    background-color:#F55A5A ;
+    width:50px ;
+    height: 50px ;
+    margin:10px ;
+    padding:20px ;
+}
+.nav .nav-text{
+    color: azure;
+    background-color:#F55A5A ;
+}
+.tiles-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tiles{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 200px;
+    padding: 30px;
+}
+.tiles .location-image{
+    width: 138px;
+    height: 200px;
+    border-radius: 7px;
+}
+.tiles .tile-info{
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.tile-info *{
+    padding-bottom: 3.6px;
+}
+.tiles .tile-info .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.tiles .location-icon{
+    width: 16.3px;
+    height: 16px;
+}
+.row .country{
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 7px;
+}
+.row .view{
+    color: gray;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.tile-info .location-name{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.tile-info .travel-date{
+    font-weight: bold;
+}
+.tile-info .location-description{
+    text-align: justify;
+}
+.hr{
+    
+    border: none; /* Remove default border */
+    height: 2px; /* Set the desired height */
+    background-color: antiquewhite; /* Set the background color */
+    margin: 20px 0;
+    box-shadow: 0 2px 2px rgba(165, 237, 236, 0.3);
+    
+}
+
+                
